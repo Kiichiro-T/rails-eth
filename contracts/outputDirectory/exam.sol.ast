@@ -1,0 +1,81 @@
+PragmaDirective
+   Source: "pragma solidity >=0.4.22<0.6.0;"
+ContractDefinition "exam"
+   Source: "contract exam {\r\n    string public teststring;//\r\n    address public testaddress;\r\n    function register(string memory _test) public {\r\n        teststring = _test;\r\n        testaddress = msg.sender;\r\n    }\r\n    function getting() public view returns(string memory,address) {\r\n        return (teststring, testaddress);\r\n    }\r\n}"
+  VariableDeclaration "teststring"
+     Type: string storage ref
+     Source: "string public teststring"
+    ElementaryTypeName string
+       Source: "string"
+  VariableDeclaration "testaddress"
+     Type: address
+     Source: "address public testaddress"
+    ElementaryTypeName address
+       Source: "address"
+  FunctionDefinition "register" - public
+     Source: "function register(string memory _test) public {\r\n        teststring = _test;\r\n        testaddress = msg.sender;\r\n    }"
+    ParameterList
+       Source: "(string memory _test)"
+      VariableDeclaration "_test"
+         Type: string memory
+         Source: "string memory _test"
+        ElementaryTypeName string
+           Source: "string"
+    ParameterList
+       Source: ""
+    Block
+       Source: "{\r\n        teststring = _test;\r\n        testaddress = msg.sender;\r\n    }"
+      ExpressionStatement
+         Source: "teststring = _test"
+        Assignment using operator =
+           Type: string storage ref
+           Source: "teststring = _test"
+          Identifier teststring
+             Type: string storage ref
+             Source: "teststring"
+          Identifier _test
+             Type: string memory
+             Source: "_test"
+      ExpressionStatement
+         Source: "testaddress = msg.sender"
+        Assignment using operator =
+           Type: address
+           Source: "testaddress = msg.sender"
+          Identifier testaddress
+             Type: address
+             Source: "testaddress"
+          MemberAccess to member sender
+             Type: address
+             Source: "msg.sender"
+            Identifier msg
+               Type: msg
+               Source: "msg"
+  FunctionDefinition "getting" - public - const
+     Source: "function getting() public view returns(string memory,address) {\r\n        return (teststring, testaddress);\r\n    }"
+    ParameterList
+       Source: "()"
+    ParameterList
+       Source: "(string memory,address)"
+      VariableDeclaration ""
+         Type: string memory
+         Source: "string"
+        ElementaryTypeName string
+           Source: "string"
+      VariableDeclaration ""
+         Type: address
+         Source: "address"
+        ElementaryTypeName address
+           Source: "address"
+    Block
+       Source: "{\r\n        return (teststring, testaddress);\r\n    }"
+      Return
+         Source: "return (teststring, testaddress)"
+        TupleExpression
+           Type: tuple(string storage ref,address)
+           Source: "(teststring, testaddress)"
+          Identifier teststring
+             Type: string storage ref
+             Source: "teststring"
+          Identifier testaddress
+             Type: address
+             Source: "testaddress"

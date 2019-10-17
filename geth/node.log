@@ -1,0 +1,199 @@
+INFO [10-12|17:35:02.693] Maximum peer count                       ETH=0 LES=0 total=0
+INFO [10-12|17:35:02.901] Starting peer-to-peer node               instance=Geth/v1.9.6-stable-bd059680/windows-amd64/go1.13
+INFO [10-12|17:35:02.902] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [10-12|17:35:02.902] Allocated cache and file handles         database=C:\\Users\\tenni\\rails-eth\\geth\\test1\\geth\\chaindata cache=512.00MiB handles=8192
+INFO [10-12|17:35:02.996] Opened ancient database                  database=C:\\Users\\tenni\\rails-eth\\geth\\test1\\geth\\chaindata\\ancient
+INFO [10-12|17:35:02.997] Initialised chain configuration          config="{ChainID: 42 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Petersburg: <nil> Istanbul: <nil> Engine: unknown}"
+INFO [10-12|17:35:02.997] Disk storage enabled for ethash caches   dir=C:\\Users\\tenni\\rails-eth\\geth\\test1\\geth\\ethash count=3
+INFO [10-12|17:35:02.997] Disk storage enabled for ethash DAGs     dir=C:\\Users\\tenni\\AppData\\Local\\Ethash count=2
+INFO [10-12|17:35:02.997] Initialising Ethereum protocol           versions=[63] network=9991457239471 dbversion=<nil>
+WARN [10-12|17:35:02.997] Upgrade blockchain database version      from=<nil> to=7
+INFO [10-12|17:35:03.096] Loaded most recent local header          number=0 hash=6231b0…a0300b td=1024 age=50y6mo1d
+INFO [10-12|17:35:03.096] Loaded most recent local full block      number=0 hash=6231b0…a0300b td=1024 age=50y6mo1d
+INFO [10-12|17:35:03.096] Loaded most recent local fast block      number=0 hash=6231b0…a0300b td=1024 age=50y6mo1d
+INFO [10-12|17:35:03.103] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [10-12|17:35:03.120] Allocated fast sync bloom                size=512.00MiB
+INFO [10-12|17:35:03.121] Initialized fast sync bloom              items=0 errorrate=0.000 elapsed=0s
+INFO [10-12|17:35:03.174] IPC endpoint opened                      url=\\\\.\\pipe\\geth.ipc
+INFO [10-12|17:35:03.174] New local node record                    seq=1 id=d4bf1e959bdd8e1e ip=127.0.0.1 udp=0 tcp=30303
+INFO [10-12|17:35:03.175] Started P2P networking                   self="enode://71e06c31c4c5bd0abb92572af730b5f8b8887137efc98b7c40201d7d7990745dc23c861879b6d11e3d7ada44605c65711df03e0bb6e940510d000e08eb9b2f89@127.0.0.1:30303?discport=0"
+WARN [10-12|17:35:03.316] Served eth_coinbase                      reqid=3 t=0s err="etherbase must be explicitly specified"
+INFO [10-12|17:35:06.597] Mapped network port                      proto=tcp extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+INFO [10-12|17:38:11.070] Your new key was generated               address=0x226285b9f8EDC679eB8BB88D578085Bc761c3f1C
+WARN [10-12|17:38:11.070] Please backup your key file!             path=C:\\Users\\tenni\\rails-eth\\geth\\test1\\keystore\\UTC--2019-10-12T08-38-09.475206900Z--226285b9f8edc679eb8bb88d578085bc761c3f1c
+WARN [10-12|17:38:11.070] Please remember your password! 
+INFO [10-12|17:38:35.930] Updated mining threads                   threads=1
+INFO [10-12|17:38:35.930] Transaction pool price threshold updated price=1000000000
+INFO [10-12|17:38:35.930] Etherbase automatically configured       address=0x226285b9f8EDC679eB8BB88D578085Bc761c3f1C
+INFO [10-12|17:38:35.930] Commit new mining work                   number=1 sealhash=f6be3b…9a2540 uncles=0 txs=0 gas=0 fees=0 elapsed=0s
+INFO [10-12|17:38:37.974] Generating DAG in progress               epoch=0 percentage=0 elapsed=1.405s
+INFO [10-12|17:38:39.193] Generating DAG in progress               epoch=0 percentage=1 elapsed=2.623s
+INFO [10-12|17:38:40.515] Generating DAG in progress               epoch=0 percentage=2 elapsed=3.946s
+INFO [10-12|17:38:41.821] Generating DAG in progress               epoch=0 percentage=3 elapsed=5.252s
+INFO [10-12|17:38:43.029] Generating DAG in progress               epoch=0 percentage=4 elapsed=6.459s
+INFO [10-12|17:38:44.228] Generating DAG in progress               epoch=0 percentage=5 elapsed=7.658s
+INFO [10-12|17:38:45.421] Generating DAG in progress               epoch=0 percentage=6 elapsed=8.852s
+INFO [10-12|17:38:46.670] Generating DAG in progress               epoch=0 percentage=7 elapsed=10.101s
+INFO [10-12|17:38:48.109] Generating DAG in progress               epoch=0 percentage=8 elapsed=11.540s
+INFO [10-12|17:38:49.333] Generating DAG in progress               epoch=0 percentage=9 elapsed=12.764s
+INFO [10-12|17:38:50.676] Generating DAG in progress               epoch=0 percentage=10 elapsed=14.107s
+INFO [10-12|17:38:51.962] Generating DAG in progress               epoch=0 percentage=11 elapsed=15.392s
+INFO [10-12|17:38:53.351] Generating DAG in progress               epoch=0 percentage=12 elapsed=16.782s
+INFO [10-12|17:38:55.008] Generating DAG in progress               epoch=0 percentage=13 elapsed=18.439s
+INFO [10-12|17:38:56.318] Generating DAG in progress               epoch=0 percentage=14 elapsed=19.748s
+INFO [10-12|17:38:57.559] Generating DAG in progress               epoch=0 percentage=15 elapsed=20.989s
+INFO [10-12|17:38:58.853] Generating DAG in progress               epoch=0 percentage=16 elapsed=22.283s
+INFO [10-12|17:39:00.164] Generating DAG in progress               epoch=0 percentage=17 elapsed=23.594s
+INFO [10-12|17:39:01.429] Generating DAG in progress               epoch=0 percentage=18 elapsed=24.859s
+INFO [10-12|17:39:02.710] Generating DAG in progress               epoch=0 percentage=19 elapsed=26.140s
+INFO [10-12|17:39:04.028] Generating DAG in progress               epoch=0 percentage=20 elapsed=27.459s
+INFO [10-12|17:39:05.290] Generating DAG in progress               epoch=0 percentage=21 elapsed=28.720s
+INFO [10-12|17:39:06.702] Generating DAG in progress               epoch=0 percentage=22 elapsed=30.133s
+INFO [10-12|17:39:08.202] Generating DAG in progress               epoch=0 percentage=23 elapsed=31.633s
+INFO [10-12|17:39:09.623] Generating DAG in progress               epoch=0 percentage=24 elapsed=33.053s
+INFO [10-12|17:39:11.034] Generating DAG in progress               epoch=0 percentage=25 elapsed=34.464s
+INFO [10-12|17:39:12.459] Generating DAG in progress               epoch=0 percentage=26 elapsed=35.889s
+INFO [10-12|17:39:13.950] Generating DAG in progress               epoch=0 percentage=27 elapsed=37.381s
+INFO [10-12|17:39:15.684] Generating DAG in progress               epoch=0 percentage=28 elapsed=39.114s
+INFO [10-12|17:39:17.393] Generating DAG in progress               epoch=0 percentage=29 elapsed=40.824s
+INFO [10-12|17:39:18.831] Generating DAG in progress               epoch=0 percentage=30 elapsed=42.262s
+INFO [10-12|17:39:20.311] Generating DAG in progress               epoch=0 percentage=31 elapsed=43.742s
+INFO [10-12|17:39:21.599] Generating DAG in progress               epoch=0 percentage=32 elapsed=45.029s
+INFO [10-12|17:39:22.813] Generating DAG in progress               epoch=0 percentage=33 elapsed=46.243s
+INFO [10-12|17:39:24.028] Generating DAG in progress               epoch=0 percentage=34 elapsed=47.459s
+INFO [10-12|17:39:25.375] Generating DAG in progress               epoch=0 percentage=35 elapsed=48.805s
+INFO [10-12|17:39:26.645] Generating DAG in progress               epoch=0 percentage=36 elapsed=50.076s
+INFO [10-12|17:39:28.128] Generating DAG in progress               epoch=0 percentage=37 elapsed=51.558s
+INFO [10-12|17:39:29.392] Generating DAG in progress               epoch=0 percentage=38 elapsed=52.823s
+INFO [10-12|17:39:30.743] Generating DAG in progress               epoch=0 percentage=39 elapsed=54.173s
+INFO [10-12|17:39:32.408] Generating DAG in progress               epoch=0 percentage=40 elapsed=55.839s
+INFO [10-12|17:39:34.281] Generating DAG in progress               epoch=0 percentage=41 elapsed=57.712s
+INFO [10-12|17:39:35.511] Generating DAG in progress               epoch=0 percentage=42 elapsed=58.941s
+INFO [10-12|17:39:37.356] Generating DAG in progress               epoch=0 percentage=43 elapsed=1m0.786s
+INFO [10-12|17:39:38.840] Generating DAG in progress               epoch=0 percentage=44 elapsed=1m2.270s
+INFO [10-12|17:39:41.193] Generating DAG in progress               epoch=0 percentage=45 elapsed=1m4.623s
+INFO [10-12|17:39:42.773] Generating DAG in progress               epoch=0 percentage=46 elapsed=1m6.204s
+INFO [10-12|17:39:44.228] Generating DAG in progress               epoch=0 percentage=47 elapsed=1m7.659s
+INFO [10-12|17:39:45.705] Generating DAG in progress               epoch=0 percentage=48 elapsed=1m9.136s
+INFO [10-12|17:39:47.243] Generating DAG in progress               epoch=0 percentage=49 elapsed=1m10.674s
+INFO [10-12|17:39:48.749] Generating DAG in progress               epoch=0 percentage=50 elapsed=1m12.180s
+INFO [10-12|17:39:50.248] Generating DAG in progress               epoch=0 percentage=51 elapsed=1m13.679s
+INFO [10-12|17:39:51.764] Generating DAG in progress               epoch=0 percentage=52 elapsed=1m15.195s
+INFO [10-12|17:39:53.278] Generating DAG in progress               epoch=0 percentage=53 elapsed=1m16.709s
+INFO [10-12|17:39:54.663] Generating DAG in progress               epoch=0 percentage=54 elapsed=1m18.094s
+INFO [10-12|17:39:56.061] Generating DAG in progress               epoch=0 percentage=55 elapsed=1m19.491s
+INFO [10-12|17:39:57.560] Generating DAG in progress               epoch=0 percentage=56 elapsed=1m20.990s
+INFO [10-12|17:39:59.013] Generating DAG in progress               epoch=0 percentage=57 elapsed=1m22.443s
+INFO [10-12|17:40:00.434] Generating DAG in progress               epoch=0 percentage=58 elapsed=1m23.865s
+INFO [10-12|17:40:01.802] Generating DAG in progress               epoch=0 percentage=59 elapsed=1m25.233s
+INFO [10-12|17:40:03.100] Generating DAG in progress               epoch=0 percentage=60 elapsed=1m26.530s
+INFO [10-12|17:40:04.366] Generating DAG in progress               epoch=0 percentage=61 elapsed=1m27.796s
+INFO [10-12|17:40:05.666] Generating DAG in progress               epoch=0 percentage=62 elapsed=1m29.097s
+INFO [10-12|17:40:07.724] Generating DAG in progress               epoch=0 percentage=63 elapsed=1m31.154s
+INFO [10-12|17:40:10.870] Generating DAG in progress               epoch=0 percentage=64 elapsed=1m34.301s
+INFO [10-12|17:40:12.345] Generating DAG in progress               epoch=0 percentage=65 elapsed=1m35.776s
+INFO [10-12|17:40:13.866] Generating DAG in progress               epoch=0 percentage=66 elapsed=1m37.297s
+INFO [10-12|17:40:15.325] Generating DAG in progress               epoch=0 percentage=67 elapsed=1m38.756s
+INFO [10-12|17:40:16.701] Generating DAG in progress               epoch=0 percentage=68 elapsed=1m40.132s
+INFO [10-12|17:40:18.355] Generating DAG in progress               epoch=0 percentage=69 elapsed=1m41.786s
+INFO [10-12|17:40:19.911] Generating DAG in progress               epoch=0 percentage=70 elapsed=1m43.341s
+INFO [10-12|17:40:21.324] Generating DAG in progress               epoch=0 percentage=71 elapsed=1m44.755s
+INFO [10-12|17:40:22.766] Generating DAG in progress               epoch=0 percentage=72 elapsed=1m46.197s
+INFO [10-12|17:40:24.403] Generating DAG in progress               epoch=0 percentage=73 elapsed=1m47.833s
+INFO [10-12|17:40:25.987] Generating DAG in progress               epoch=0 percentage=74 elapsed=1m49.417s
+INFO [10-12|17:40:27.423] Generating DAG in progress               epoch=0 percentage=75 elapsed=1m50.853s
+INFO [10-12|17:40:28.871] Generating DAG in progress               epoch=0 percentage=76 elapsed=1m52.301s
+INFO [10-12|17:40:30.385] Generating DAG in progress               epoch=0 percentage=77 elapsed=1m53.815s
+INFO [10-12|17:40:31.663] Generating DAG in progress               epoch=0 percentage=78 elapsed=1m55.094s
+INFO [10-12|17:40:33.007] Generating DAG in progress               epoch=0 percentage=79 elapsed=1m56.437s
+INFO [10-12|17:40:34.292] Generating DAG in progress               epoch=0 percentage=80 elapsed=1m57.723s
+INFO [10-12|17:40:35.560] Generating DAG in progress               epoch=0 percentage=81 elapsed=1m58.990s
+INFO [10-12|17:40:36.817] Generating DAG in progress               epoch=0 percentage=82 elapsed=2m0.247s
+INFO [10-12|17:40:38.082] Generating DAG in progress               epoch=0 percentage=83 elapsed=2m1.513s
+INFO [10-12|17:40:39.361] Generating DAG in progress               epoch=0 percentage=84 elapsed=2m2.791s
+INFO [10-12|17:40:40.762] Generating DAG in progress               epoch=0 percentage=85 elapsed=2m4.193s
+INFO [10-12|17:40:42.050] Generating DAG in progress               epoch=0 percentage=86 elapsed=2m5.480s
+INFO [10-12|17:40:43.374] Generating DAG in progress               epoch=0 percentage=87 elapsed=2m6.805s
+INFO [10-12|17:40:44.697] Generating DAG in progress               epoch=0 percentage=88 elapsed=2m8.127s
+INFO [10-12|17:40:46.039] Generating DAG in progress               epoch=0 percentage=89 elapsed=2m9.469s
+INFO [10-12|17:40:47.334] Generating DAG in progress               epoch=0 percentage=90 elapsed=2m10.765s
+INFO [10-12|17:40:48.677] Generating DAG in progress               epoch=0 percentage=91 elapsed=2m12.107s
+INFO [10-12|17:40:50.009] Generating DAG in progress               epoch=0 percentage=92 elapsed=2m13.440s
+INFO [10-12|17:40:51.349] Generating DAG in progress               epoch=0 percentage=93 elapsed=2m14.779s
+INFO [10-12|17:40:52.657] Generating DAG in progress               epoch=0 percentage=94 elapsed=2m16.088s
+INFO [10-12|17:40:54.666] Generating DAG in progress               epoch=0 percentage=95 elapsed=2m18.097s
+INFO [10-12|17:40:56.680] Generating DAG in progress               epoch=0 percentage=96 elapsed=2m20.110s
+INFO [10-12|17:40:58.415] Generating DAG in progress               epoch=0 percentage=97 elapsed=2m21.846s
+INFO [10-12|17:41:00.221] Generating DAG in progress               epoch=0 percentage=98 elapsed=2m23.652s
+INFO [10-12|17:41:02.152] Generating DAG in progress               epoch=0 percentage=99 elapsed=2m25.583s
+INFO [10-12|17:41:02.154] Generated ethash verification cache      epoch=0 elapsed=2m25.585s
+INFO [10-12|17:41:05.753] Generating DAG in progress               epoch=1 percentage=0  elapsed=1.529s
+INFO [10-12|17:41:07.219] Generating DAG in progress               epoch=1 percentage=1  elapsed=2.996s
+INFO [10-12|17:41:09.469] Generating DAG in progress               epoch=1 percentage=2  elapsed=5.246s
+INFO [10-12|17:41:11.071] Generating DAG in progress               epoch=1 percentage=3  elapsed=6.848s
+INFO [10-12|17:41:12.636] Generating DAG in progress               epoch=1 percentage=4  elapsed=8.413s
+INFO [10-12|17:41:14.167] Generating DAG in progress               epoch=1 percentage=5  elapsed=9.944s
+INFO [10-12|17:41:15.733] Generating DAG in progress               epoch=1 percentage=6  elapsed=11.510s
+INFO [10-12|17:41:17.446] Generating DAG in progress               epoch=1 percentage=7  elapsed=13.222s
+INFO [10-12|17:41:19.794] Generating DAG in progress               epoch=1 percentage=8  elapsed=15.571s
+INFO [10-12|17:41:21.799] Generating DAG in progress               epoch=1 percentage=9  elapsed=17.575s
+INFO [10-12|17:41:23.724] Generating DAG in progress               epoch=1 percentage=10 elapsed=19.501s
+INFO [10-12|17:41:26.341] Generating DAG in progress               epoch=1 percentage=11 elapsed=22.118s
+INFO [10-12|17:41:28.340] Generating DAG in progress               epoch=1 percentage=12 elapsed=24.116s
+INFO [10-12|17:41:30.184] Generating DAG in progress               epoch=1 percentage=13 elapsed=25.960s
+INFO [10-12|17:41:32.025] Generating DAG in progress               epoch=1 percentage=14 elapsed=27.801s
+INFO [10-12|17:41:33.938] Generating DAG in progress               epoch=1 percentage=15 elapsed=29.714s
+INFO [10-12|17:41:35.934] Generating DAG in progress               epoch=1 percentage=16 elapsed=31.711s
+INFO [10-12|17:41:37.766] Generating DAG in progress               epoch=1 percentage=17 elapsed=33.543s
+INFO [10-12|17:41:39.903] Generating DAG in progress               epoch=1 percentage=18 elapsed=35.679s
+INFO [10-12|17:41:42.775] Generating DAG in progress               epoch=1 percentage=19 elapsed=38.552s
+INFO [10-12|17:41:45.516] Generating DAG in progress               epoch=1 percentage=20 elapsed=41.292s
+INFO [10-12|17:41:47.627] Generating DAG in progress               epoch=1 percentage=21 elapsed=43.404s
+INFO [10-12|17:41:50.448] Generating DAG in progress               epoch=1 percentage=22 elapsed=46.225s
+INFO [10-12|17:41:53.043] Generating DAG in progress               epoch=1 percentage=23 elapsed=48.819s
+INFO [10-12|17:41:55.538] Generating DAG in progress               epoch=1 percentage=24 elapsed=51.315s
+INFO [10-12|17:41:58.371] Generating DAG in progress               epoch=1 percentage=25 elapsed=54.148s
+INFO [10-12|17:42:01.390] Generating DAG in progress               epoch=1 percentage=26 elapsed=57.167s
+INFO [10-12|17:42:03.983] Generating DAG in progress               epoch=1 percentage=27 elapsed=59.760s
+INFO [10-12|17:42:06.269] Generating DAG in progress               epoch=1 percentage=28 elapsed=1m2.046s
+INFO [10-12|17:42:09.172] Generating DAG in progress               epoch=1 percentage=29 elapsed=1m4.949s
+INFO [10-12|17:42:11.437] Generating DAG in progress               epoch=1 percentage=30 elapsed=1m7.214s
+INFO [10-12|17:42:13.804] Generating DAG in progress               epoch=1 percentage=31 elapsed=1m9.581s
+INFO [10-12|17:42:16.239] Generating DAG in progress               epoch=1 percentage=32 elapsed=1m12.016s
+INFO [10-12|17:42:18.404] Generating DAG in progress               epoch=1 percentage=33 elapsed=1m14.180s
+INFO [10-12|17:42:20.540] Generating DAG in progress               epoch=1 percentage=34 elapsed=1m16.317s
+INFO [10-12|17:42:23.766] Generating DAG in progress               epoch=1 percentage=35 elapsed=1m19.543s
+INFO [10-12|17:42:26.980] Generating DAG in progress               epoch=1 percentage=36 elapsed=1m22.756s
+INFO [10-12|17:42:30.817] Generating DAG in progress               epoch=1 percentage=37 elapsed=1m26.594s
+INFO [10-12|17:42:34.656] Generating DAG in progress               epoch=1 percentage=38 elapsed=1m30.433s
+INFO [10-12|17:42:37.227] Generating DAG in progress               epoch=1 percentage=39 elapsed=1m33.004s
+INFO [10-12|17:42:40.258] Generating DAG in progress               epoch=1 percentage=40 elapsed=1m36.035s
+INFO [10-12|17:42:43.387] Generating DAG in progress               epoch=1 percentage=41 elapsed=1m39.163s
+INFO [10-12|17:44:26.277] Maximum peer count                       ETH=0 LES=0 total=0
+INFO [10-12|17:44:26.442] Starting peer-to-peer node               instance=Geth/v1.9.6-stable-bd059680/windows-amd64/go1.13
+INFO [10-12|17:44:26.442] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [10-12|17:44:26.442] Allocated cache and file handles         database=C:\\Users\\tenni\\rails-eth\\geth\\test1\\geth\\chaindata cache=512.00MiB handles=8192
+INFO [10-12|17:44:26.494] Opened ancient database                  database=C:\\Users\\tenni\\rails-eth\\geth\\test1\\geth\\chaindata\\ancient
+INFO [10-12|17:44:26.495] Initialised chain configuration          config="{ChainID: 42 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Petersburg: <nil> Istanbul: <nil> Engine: unknown}"
+INFO [10-12|17:44:26.495] Disk storage enabled for ethash caches   dir=C:\\Users\\tenni\\rails-eth\\geth\\test1\\geth\\ethash count=3
+INFO [10-12|17:44:26.495] Disk storage enabled for ethash DAGs     dir=C:\\Users\\tenni\\AppData\\Local\\Ethash count=2
+INFO [10-12|17:44:26.495] Initialising Ethereum protocol           versions=[63] network=9991457239471 dbversion=7
+INFO [10-12|17:44:26.565] Loaded most recent local header          number=0 hash=6231b0…a0300b td=1024 age=50y6mo1d
+INFO [10-12|17:44:26.565] Loaded most recent local full block      number=0 hash=6231b0…a0300b td=1024 age=50y6mo1d
+INFO [10-12|17:44:26.565] Loaded most recent local fast block      number=0 hash=6231b0…a0300b td=1024 age=50y6mo1d
+INFO [10-12|17:44:26.567] Loaded local transaction journal         transactions=0 dropped=0
+INFO [10-12|17:44:26.573] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [10-12|17:44:26.584] Allocated fast sync bloom                size=512.00MiB
+INFO [10-12|17:44:26.584] Initialized fast sync bloom              items=0 errorrate=0.000 elapsed=0s
+INFO [10-12|17:44:26.617] New local node record                    seq=2 id=d4bf1e959bdd8e1e ip=127.0.0.1 udp=0 tcp=30303
+INFO [10-12|17:44:26.617] Started P2P networking                   self="enode://71e06c31c4c5bd0abb92572af730b5f8b8887137efc98b7c40201d7d7990745dc23c861879b6d11e3d7ada44605c65711df03e0bb6e940510d000e08eb9b2f89@127.0.0.1:30303?discport=0"
+INFO [10-12|17:44:26.618] IPC endpoint opened                      url=\\\\.\\pipe\\geth.ipc
+INFO [10-12|17:44:26.724] Etherbase automatically configured       address=0x226285b9f8EDC679eB8BB88D578085Bc761c3f1C
+WARN [10-12|17:47:19.962] Served eth_sendTransaction               reqid=28 t=12.9607ms err="authentication needed: password or unlock"
+WARN [10-12|17:47:31.874] Served eth_sendTransaction               reqid=30 t=13.8874ms err="authentication needed: password or unlock"
+WARN [10-12|17:47:40.713] Served eth_sendTransaction               reqid=32 t=2.9892ms  err="authentication needed: password or unlock"
+INFO [10-12|17:47:54.343] IPC endpoint closed                      url=\\\\.\\pipe\\geth.ipc
+INFO [10-12|17:47:54.343] Blockchain manager stopped 
+INFO [10-12|17:47:54.344] Stopping Ethereum protocol 
+INFO [10-12|17:47:54.344] Ethereum protocol stopped 
+INFO [10-12|17:47:54.344] Transaction pool stopped 
